@@ -1,3 +1,3 @@
 <?php
 
-<h1>Auto Deploy</h1>
+echo '<h1>Auto Deploy</h1>';
