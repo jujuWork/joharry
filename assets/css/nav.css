@@ -1,4 +1,12 @@
 nav {
   position: relative;
   height: 100%;
+
+  .nav__container {
+    display: flex;
+  }
+
+  .nav__list {
+    border: 1px solid red;
+  }
 }
