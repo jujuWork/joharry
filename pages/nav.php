@@ -1,10 +1,22 @@
 <nav>
-        <ul class="nav__list">
-            <li class="nav__links nav__name">Joharry Sanchez</li>
-            <li class="nav__links">Work Experience</li>
-            <li class="nav__links">Skills</li>
-            <li class="nav__links">Certificates</li>
-            <li class="nav__links">Works</li>
-            <li class="nav__links nav__contact">Contact Me</li>
-        </ul>
+    <ul class="nav__list">
+
+        <li class="nav__name">
+            <a href="#home">Joharry Sanchez</a>
+        </li>
+        <li class="nav__links">
+            <a href="#work">Work Experience</a>
+        </li>
+        <li class="nav__links">
+            <a href="#skills">Skills</a>
+        </li>
+        <li class="nav__links">
+            <a href="#certificate">Certificate</a>
+        </li>
+        <li class="nav__links">
+            <a href="#works">Works</a>
+        </li>
+
+        <button class="nav__contact">Contact Me</button>
+    </ul>
 </nav>

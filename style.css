@@ -3,11 +3,20 @@
   padding: 0;
   box-sizing: border-box;
   color: var(--main-text-color);
+  font-family: "Poppins";
 }
 
 :root {
-  --main-bg-color: #000000;
-  --main-text-color: #eeeeee;
+  /* BACKGROUND COLOR */
+  --main-bg-color: #041c32; /* rgb(4, 28, 50) */
+  --seconday-bg-color: #04293a; /* rgb(4, 41, 58) */
+
+  /* TEXT COLOR */
+  --main-text-color: #064663; /* rgb(6, 70, 99) */
+  --hover-color: #ecb365; /* rgb(236, 179, 101) */
+
+  /* FONT SIZE */
+  --main-font-size: clamp(10px, 15vw, 14px);
 }
 
 html {
@@ -19,6 +28,17 @@ body {
   background-color: var(--main-bg-color);
   display: grid;
   place-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
 }
 
 /********** MAIN GRID CONTAINER ***********/
