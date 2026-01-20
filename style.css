@@ -23,7 +23,7 @@ body {
 
 /********** MAIN GRID CONTAINER ***********/
 
-.grid-container {
+.grid_container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto 1fr auto;
@@ -37,7 +37,7 @@ body {
   /* height: 100vh; */
 }
 
-.content {
+.main {
   grid-column: 1 / -1;
   /* grid-row: span 3 / span 3;
   grid-row-start: 2; */
@@ -50,7 +50,7 @@ body {
   /* height: 20vh; */
 }
 
-.grid-item {
+.grid_item {
   border: 1px solid orange;
 }
 

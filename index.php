@@ -1,3 +1,3 @@
 <?php
 
-require '/container.php';
+require 'container.php';
