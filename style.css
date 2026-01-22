@@ -25,9 +25,10 @@ html {
 }
 
 body {
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color); */
   display: grid;
   place-items: center;
+  position: relative;
 }
 
 a {
@@ -50,11 +51,13 @@ a {
   gap: 1px;
   max-width: 1920px;
   width: 100%;
+  position: relative;
 }
 
 .header {
   grid-column: 1 / -1;
   /* height: 100vh; */
+  position: relative;
 }
 
 .main {
