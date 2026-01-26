@@ -1,37 +1,23 @@
 <nav>
-    <div class="burger__wrapper">
-        <label for="burger" class="burger">
-            <input type="checkbox" id="burger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-    </div>
-
-
-
-
-
-
-
-    <div class="nav__list">
-        <ul class="nav__link--wrapper">
-            <li class="nav__name">
-                <a href="#home">Joharry Sanchez</a>
-            </li>
-            <li class="nav__links">
-                <a href="#work">Work Experience</a>
-            </li>
-            <li class="nav__links">
-                <a href="#skills">Skills</a>
-            </li>
-            <li class="nav__links">
-                <a href="#certificate">Certificate</a>
-            </li>
-            <li class="nav__links">
-                <a href="#works">Works</a>
-            </li>
-            <button class="nav__contact">Contact Me</button>
+    <button class="burger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <div class="burger__menu" id="menu">
+        <ul class="burger__menu-list">
+            <li class="burger__menu-items">Work Exeprience</li>
+            <li class="burger__menu-items">Skills</li>
+            <li class="burger__menu-items">Certificates</li>
+            <li class="burger__menu-items">Works</li>
+            <li class="burger__menu-items">Contact</li>
         </ul>
     </div>
 </nav>
+
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('active');
+    }
+</script>

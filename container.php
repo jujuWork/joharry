@@ -23,7 +23,6 @@
         <div class="grid_item header">
             <?php include './pages/nav.php' ?>
             <?php include 'header.php' ?>
-
         </div>
         <div class="grid_item main">
             <?php include 'main.php' ?>
