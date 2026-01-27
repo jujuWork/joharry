@@ -1,17 +1,15 @@
 nav {
   position: relative;
   height: 100%;
-  border: 1px solid red;
   width: 100%;
 }
 
 /* ===== HAMBURGER MENU ===== */
 
 .burger {
-  border: 1px solid red;
   position: fixed;
   top: 20px;
-  right: 20px;
+  left: 20px;
   width: 40px;
   height: 40px;
   background-color: var(--main-bg-color);
@@ -34,27 +32,54 @@ nav {
 .burger__menu {
   position: fixed;
   top: 0;
-  right: -250px;
+  left: -250px;
   width: 250px;
   height: 100vh;
   background: var(--main-bg-color);
-  /* color: white; */
   transition: right 0.3 ease;
-  padding: 80px;
+  display: flex;
+  justify-content: center;
 }
 
-.burger__menu.active {
-  right: 0;
+.burger__menu.active,
+.burger span.active {
+  left: 0;
+  color: black;
 }
 
 .burger__menu-list {
   list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
 }
 
 .burger__menu-items {
-  padding: 15px;
+  width: 100%;
+  height: 3em;
   color: var(--main-text-color);
   cursor: pointer;
+  box-shadow: inset 0 0 0 #000000;
+  transition: all 0.5s ease;
+  padding-left: 1.1em;
+  display: flex;
+  align-items: center;
+}
+
+.burger__menu-links {
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color-white);
+  font-size: 1.2rem;
+}
+
+.burger__menu-items:hover,
+.burger__menu-links:hover {
+  box-shadow: inset 300px 0 0 #000000;
+  color: var(--hover-color);
 }
 
 /* 

@@ -6,11 +6,21 @@
     </button>
     <div class="burger__menu" id="menu">
         <ul class="burger__menu-list">
-            <li class="burger__menu-items">Work Exeprience</li>
-            <li class="burger__menu-items">Skills</li>
-            <li class="burger__menu-items">Certificates</li>
-            <li class="burger__menu-items">Works</li>
-            <li class="burger__menu-items">Contact</li>
+            <li class="burger__menu-items">
+                <a href="#work" class="burger__menu-links">Work Exeprience</a>
+            </li>
+            <li class="burger__menu-items">
+                <a href="#skills" class="burger__menu-links">Skills</a>
+            </li>
+            <li class="burger__menu-items">
+                <a href="#certificate" class="burger__menu-links">Certificates</a>
+            </li>
+            <li class="burger__menu-items">
+                <a href="#projects" class="burger__menu-links">Projects</a>
+            </li>
+            <li class="burger__menu-items">
+                <a href="#contact" class="burger__menu-links">Contact me</a>
+            </li>
         </ul>
     </div>
 </nav>

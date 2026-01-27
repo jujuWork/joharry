@@ -9,11 +9,12 @@
 :root {
   /* BACKGROUND COLOR */
   --main-bg-color: #041c32; /* rgb(4, 28, 50) */
-  --seconday-bg-color: #04293a; /* rgb(4, 41, 58) */
+  --secondary-bg-color: #04293a; /* rgb(4, 41, 58) */
 
   /* TEXT COLOR */
   --main-text-color: #064663; /* rgb(6, 70, 99) */
   --hover-color: #ecb365; /* rgb(236, 179, 101) */
+  --text-color-white: #ffffff;
 
   /* FONT SIZE */
   --main-font-size: clamp(10px, 15vw, 14px);
@@ -37,7 +38,13 @@ a {
 
 @font-face {
   font-family: "Poppins";
-  src: url("/assets/fonts/Poppins-Regular.ttf") format("truetype");
+  src: url("/assets/fonts/Poppins.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat.ttf") format("truetype");
   font-weight: normal;
   font-display: swap;
 }
@@ -73,9 +80,9 @@ a {
   /* height: 20vh; */
 }
 
-.grid_item {
+/* .grid_item {
   border: 1px solid orange;
-}
+} */
 
 @media (max-width: 1024px) {
   .grid-container {
