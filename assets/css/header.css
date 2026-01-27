@@ -6,11 +6,16 @@ header {
 .header__container {
   border: 1px solid red;
   display: flex;
+  height: 100vh;
 }
 
 .header__container-left {
   border: 1px solid blue;
   width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__container-right {
