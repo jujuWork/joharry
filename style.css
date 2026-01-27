@@ -58,13 +58,13 @@ a {
   gap: 1px;
   max-width: 1920px;
   width: 100%;
-  position: relative;
+  /* position: relative; */
 }
 
 .header {
   grid-column: 1 / -1;
   /* height: 100vh; */
-  position: relative;
+  /* position: relative; */
 }
 
 .main {
@@ -80,9 +80,9 @@ a {
   /* height: 20vh; */
 }
 
-/* .grid_item {
-  border: 1px solid orange;
-} */
+.grid_item {
+  height: 100vh;
+}
 
 @media (max-width: 1024px) {
   .grid-container {

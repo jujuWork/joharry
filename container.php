@@ -25,7 +25,7 @@
             <?php include 'header.php' ?>
         </div>
         <div class="grid_item main">
-            <?php include 'main.php' ?>
+            <?php include './pages/main.php' ?>
         </div>
         <div class="grid_item footer">
             <?php include 'footer.php' ?>
