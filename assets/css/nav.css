@@ -11,7 +11,7 @@ nav {
   left: 20px;
   width: 40px;
   height: 40px;
-  background-color: var(--main-bg-color);
+  background-color: transparent;
   border: none;
   cursor: pointer;
   display: flex;
@@ -23,25 +23,42 @@ nav {
 }
 
 .burger span {
-  width: 25px;
+  width: 34px;
   height: 3px;
-  background-color: white;
+  background-color: var(--main-text-color);
+  transition: all 0.3s ease;
+}
+
+.burger.active span:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+  background-color: var(--hover-color);
+}
+
+.burger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: var(--hover-color);
 }
 
 .burger__menu {
   position: fixed;
   top: 0;
-  left: -350px;
-  width: 100%;
+  left: -1000px;
+  /* width: clamp(50vw, 50%, 100vw); */
+  width: 30%;
   height: 100vh;
-  background: var(--main-bg-color);
-  transition: right 0.3 ease;
+  background: var(--secondary-bg-color);
+  transition: all 0.5s ease;
   display: flex;
   justify-content: center;
 }
 
 .burger__menu.active {
   left: 0;
+  /* transition: all 0.5s ease; */
 }
 
 .burger__menu-list {
@@ -49,19 +66,20 @@ nav {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 15px;
+  gap: 0.9em;
   position: relative;
-  margin-top: 100px;
+  margin-top: 5em;
   width: 100%;
 }
 
 .burger__menu-items {
+  border: none;
   width: 100%;
-  height: 3em;
+  height: clamp(1rem, 3rem, 5rem);
   color: var(--main-text-color);
   cursor: pointer;
   box-shadow: inset 0 0 0 #000000;
-  transition: all 0.5s ease;
+  transition: all 1s ease;
   padding-left: 1.1em;
   display: flex;
   align-items: center;
@@ -70,38 +88,23 @@ nav {
 .burger__menu-links {
   font-family: "Montserrat", sans-serif;
   color: var(--text-color-white);
-  font-size: 1.2rem;
+  font-size: clamp(3vw, 12px, 6vw);
+}
+
+.burger__menu-items:hover {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .burger__menu-items:hover,
 .burger__menu-links:hover {
-  box-shadow: inset 300px 0 0 #000000;
+  box-shadow: inset 700px 0 0 #000000;
   color: var(--hover-color);
 }
 
-.burger span:nth-of-type(1) {
-  top: 0px;
-}
-
-.burger span:nth-of-type(2) {
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.burger span:nth-of-type(3) {
-  top: 100%;
-  transform: translateY(-100%);
-}
-
-.burger:checked ~ span:nth-of-type(1) {
-  top: 50%;
-  transform: translateY(-50%) rotate(45deg);
-}
-.burger checked ~ span:nth-of-type(2) {
-  width: 0%;
-  opacity: 0;
-}
-.burger:checked ~ span:nth-of-type(3) {
-  top: 50%;
-  transform: translateY(-50%) rotate(-45deg);
+@media (min-width: 1024px) {
+  .burger,
+  .burger__menu {
+    display: none;
+  }
 }

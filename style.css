@@ -8,12 +8,12 @@
 
 :root {
   /* BACKGROUND COLOR */
-  --main-bg-color: #041c32; /* rgb(4, 28, 50) */
-  --secondary-bg-color: #04293a; /* rgb(4, 41, 58) */
+  --main-bg-color: #021526; /* rgb(2, 21, 38) */
+  --secondary-bg-color: #03346e; /* rgb(3, 52, 110) */
 
   /* TEXT COLOR */
-  --main-text-color: #064663; /* rgb(6, 70, 99) */
-  --hover-color: #ecb365; /* rgb(236, 179, 101) */
+  --main-text-color: #f8fafc; /* rrgb(248, 250, 252) */
+  --hover-color: #6eacda; /* rrgb(110, 172, 218)*/
   --text-color-white: #ffffff;
 
   /* FONT SIZE */
@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  /* background-color: var(--main-bg-color); */
+  background-color: var(--main-bg-color);
   display: grid;
   place-items: center;
   position: relative;
