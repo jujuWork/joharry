@@ -31,8 +31,8 @@ nav {
 .burger__menu {
   position: fixed;
   top: 0;
-  left: -250px;
-  width: 250px;
+  left: -350px;
+  width: 100%;
   height: 100vh;
   background: var(--main-bg-color);
   transition: right 0.3 ease;
