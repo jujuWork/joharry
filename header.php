@@ -1,10 +1,10 @@
 <header>
     <div class="header__container">
-        <div class="header__container-left">
-            left
-        </div>
-        <div class="header__container-right">
-            right
+        <?php include './pages/nav.php'; ?>
+        <div class="header__logo">
+            <p class="logo__title">
+                Gym<span>.</span>
+            </p>
         </div>
     </div>
 </header>

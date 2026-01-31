@@ -9,8 +9,8 @@ nav {
   position: fixed;
   top: 20px;
   left: 20px;
-  width: 40px;
-  height: 40px;
+  width: clamp(40px, 10vw, 80px);
+  height: clamp(40px, 10vw, 80px);
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -23,14 +23,14 @@ nav {
 }
 
 .burger span {
-  width: 34px;
-  height: 3px;
+  width: clamp(30px, 10vw, 40px);
+  height: 5px;
   background-color: var(--text-color);
   transition: all 0.3s ease;
 }
 
 .burger.active span:nth-child(1) {
-  transform: translateY(10px) rotate(45deg);
+  transform: translateY(12px) rotate(45deg);
   background-color: var(--tool-color);
 }
 
@@ -39,7 +39,7 @@ nav {
 }
 
 .burger.active span:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-45deg);
   background-color: var(--tool-color);
 }
 
