@@ -4,15 +4,15 @@ function toggleMenu() {
   menu.classList.toggle("active");
 }
 
-// Closing the menu when click outside
-document.addEventListener("click", function (event) {
-  const menu = document.getElementById("menu");
-  const menuButton = event.target.closest('[onclick*="toggleMenu"]');
+// // Closing the menu when click outside
+// document.addEventListener("click", function (event) {
+//   const menu = document.getElementById("menu");
+//   const menuButton = event.target.closest('[onclick*="toggleMenu"]');
 
-  if (!menu.contains(event.target) && !menuButton) {
-    menu.classList.remove("active");
-  }
-});
+//   if (!menu.contains(event.target) && !menuButton) {
+//     menu.classList.remove("active");
+//   }
+// });
 
 // BURGER MENU x ANIMATION
 const burger = document.querySelector(".burger");

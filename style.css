@@ -8,13 +8,11 @@
 
 :root {
   /* BACKGROUND COLOR */
-  --main-bg-color: #021526; /* rgb(2, 21, 38) */
-  --secondary-bg-color: #03346e; /* rgb(3, 52, 110) */
+  --main-bg-color: #000000; /* rgb(0, 0, 0) */
+  --tool-color: #cf0a0a; /* rgb(207, 10, 10) */
 
   /* TEXT COLOR */
-  --main-text-color: #f8fafc; /* rrgb(248, 250, 252) */
-  --hover-color: #6eacda; /* rrgb(110, 172, 218)*/
-  --text-color-white: #ffffff;
+  --text-color: #eeeeee; /* rgb(238, 238, 238) */
 
   /* FONT SIZE */
   --main-font-size: clamp(10px, 15vw, 14px);
@@ -42,9 +40,17 @@ a {
   font-weight: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Montserrat";
   src: url("/assets/fonts/Montserrat.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rakkas";
+  src: url("/assets/fonts/Rakkas.ttf") format("truetype");
   font-weight: normal;
   font-display: swap;
 }
