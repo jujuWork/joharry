@@ -42,8 +42,8 @@ a {
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat.ttf") format("truetype");
+  font-family: "Kavoon";
+  src: url("/assets/fonts/Kavoon.ttf") format("truetype");
   font-weight: normal;
   font-display: swap;
 }

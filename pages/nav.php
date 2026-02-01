@@ -33,9 +33,3 @@
         </ul>
     </div>
 </nav>
-
-<script>
-    <?php
-    include 'assets/js/nav.js';
-    ?>
-</script>
