@@ -13,4 +13,4 @@ function nextSlide() {
 }
 
 // Fade every 2 secs + 0.5s transition
-setInterval(nextSlide, 2500);
+setInterval(nextSlide, 4000);

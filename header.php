@@ -9,7 +9,9 @@
             </div>
         </div>
         <div class="header__image-wrapper">
-            <img src="/assets/images/header/img01.webp" alt="Image01">
+            <div class="image__container">
+                <img src="/assets/images/header/img01.webp" alt="Image01">
+            </div>
             <img src="/assets/images/header/img02.webp" alt="Image02">
             <img src="/assets/images/header/img03.webp" alt="Image03">
         </div>

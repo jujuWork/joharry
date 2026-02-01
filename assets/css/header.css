@@ -75,3 +75,13 @@ span {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+
+.image__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  p {
+    z-index: 10;
+  }
+}
