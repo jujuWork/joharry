@@ -73,6 +73,7 @@ nav {
   position: relative;
   margin-top: 6em;
   width: 100%;
+  margin-left: 1.8em;
 }
 
 .burger__menu-items {
@@ -91,7 +92,7 @@ nav {
 .burger__menu-links {
   font-family: "Poppins", sans-serif;
   color: var(--text-color);
-  font-size: clamp(10px, 5vw, 20px);
+  font-size: clamp(10px, 5vw, 25px);
   text-transform: uppercase;
   font-weight: bolder;
 }
@@ -135,6 +136,16 @@ nav {
 @media (max-width: 420px) {
   .burger__menu {
     width: 50%;
+  }
+
+  .burger__menu-list {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .burger__menu-list {
+    margin-left: 1.5em;
   }
 }
 
