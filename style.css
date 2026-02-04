@@ -28,6 +28,7 @@ body {
   display: grid;
   place-items: center;
   position: relative;
+  width: 100%;
 }
 
 a {
@@ -62,7 +63,7 @@ a {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto 1fr auto;
   gap: 1px;
-  max-width: 1920px;
+  /* max-width: 1920px; */
   width: 100%;
   /* position: relative; */
 }
