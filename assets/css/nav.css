@@ -78,7 +78,7 @@ nav {
 
 .burger__menu-items {
   border: none;
-  width: 100%;
+  width: -100%;
   height: clamp(1rem, 3rem, 5rem);
   /* color: var(--main-text-color); */
   cursor: pointer;
@@ -106,7 +106,7 @@ nav {
 .burger__menu-links:hover {
   box-shadow: inset 700px 0 0 #cf0a0a;
   color: var(--text-color);
-  width: 100%;
+  /* width: 100%; */
 }
 
 .burger__menu-join {

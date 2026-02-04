@@ -1,6 +1,8 @@
 const images = document.querySelectorAll(".header__image-wrapper img");
 let currentIndex = 0;
 
+images[currentIndex].classList.add("active");
+
 function nextSlide() {
   //Fade Out
   images[currentIndex].classList.remove("active");
