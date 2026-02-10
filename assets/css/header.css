@@ -97,7 +97,6 @@ span {
 }
 
 .hero__container {
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,12 +105,23 @@ span {
   text-align: center;
 }
 
-.hero__title {
+.hero__title,
+.hero__sub-title {
   font-family: "Rakkas", sans-serif;
-  font-size: clamp(2.5rem, 10vw, 10rem);
   text-transform: uppercase;
 }
 
+.hero__title {
+  font-size: clamp(2.5rem, 8.5vw, 8rem);
+}
+
+.hero__sub-title {
+  font-size: clamp(2rem, 6.5vw, 6rem);
+}
+
+.hero__description {
+  font-size: clamp(0.8rem, 1.5vw, 2rem);
+}
 /* ===== MEDIA QUERIES ===== */
 
 @media (min-width: 1024px) {

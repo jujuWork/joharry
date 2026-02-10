@@ -25,7 +25,8 @@
                 Body shape
             </h2>
             <h3 class="hero__description">
-                Build your body and Fitness with Profession Touch
+                <p>Build your body and Fitness</p>
+                <p>with Profession Touch</p>
             </h3>
             <button>
                 Join Us
