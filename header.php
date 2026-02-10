@@ -16,4 +16,20 @@
             <img src="/assets/images/header/img03.webp" alt="Image03">
         </div>
     </div>
+    <section class="hero">
+        <div class="hero__container">
+            <h1 class="hero__title">
+                Build up your
+            </h1>
+            <h2 class="hero__sub-title">
+                Body shape
+            </h2>
+            <h3 class="hero__description">
+                Build your body and Fitness with Profession Touch
+            </h3>
+            <button>
+                Join Us
+            </button>
+        </div>
+    </section>
 </header>
