@@ -23,13 +23,13 @@ header {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin: 15px 10px 0 0;
+  margin: 10px 10px 0 0;
 }
 
 .logo__title,
 span {
   text-transform: uppercase;
-  font-size: clamp(2rem, 10vw, 6rem);
+  font-size: clamp(2rem, 10vw, 4rem);
   font-family: "Kavoon";
   letter-spacing: 3px;
 

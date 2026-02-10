@@ -29,8 +29,6 @@
             <li class="burger__menu-items">
                 <a href="#contact" class="burger__menu-links">Contact</a>
             </li>
-
-            <button class="burger__menu-join">Join Us</button>
         </ul>
     </div>
     <!-- HAMBURGER MENU END -->
