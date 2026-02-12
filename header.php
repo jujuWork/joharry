@@ -28,7 +28,7 @@
                 <p>Build your body and Fitness</p>
                 <p>with Profession Touch</p>
             </h3>
-            <button>
+            <button class="hero__btn">
                 Join Us
             </button>
         </div>
