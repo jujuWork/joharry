@@ -29,7 +29,7 @@
                 <p>with Profession Touch</p>
             </h3>
             <button class="hero__btn">
-                Join Us
+                Join Now
             </button>
         </div>
     </section>

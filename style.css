@@ -87,9 +87,9 @@ a {
   /* height: 20vh; */
 }
 
-.grid_item {
+/* .grid_item {
   height: 100vh;
-}
+} */
 
 @media (max-width: 1024px) {
   .grid-container {
