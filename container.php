@@ -15,6 +15,9 @@
     <!-- HEADER STYLES -->
     <link rel="stylesheet" href="./assets/css/header.css">
 
+    <!-- MAIN STYLES -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+
 </head>
 
 <body>
