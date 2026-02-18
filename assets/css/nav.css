@@ -158,6 +158,7 @@ nav {
   font-size: clamp(0.8rem, 1.5vw, 2rem);
   position: relative;
   text-decoration: none;
+  transition: 0.3s ease-out;
 }
 
 .nav__links::after {
@@ -173,9 +174,11 @@ nav {
   transition: transform 0.3s ease-out;
 }
 
-.nav__links:hover::after {
+.nav__links:hover::after,
+.nav__links:hover {
   transform: scaleX(1);
   transform-origin: bottom left;
+  color: var(--tool-color);
 }
 
 .header__logo {
