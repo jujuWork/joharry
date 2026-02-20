@@ -8,7 +8,7 @@
                     Ipsum available, but the majority have suffered
                     alteration.
                 </p>
-                <button class="hero__btn">
+                <button class="main__btn">
                     Join Now
                 </button>
             </section>
@@ -21,7 +21,7 @@
                     Ipsum available, but the majority have suffered
                     alteration.
                 </p>
-                <button class="hero__btn">
+                <button class="main__btn">
                     Join Now
                 </button>
             </section>
