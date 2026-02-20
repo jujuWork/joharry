@@ -10,7 +10,7 @@
                 </p>
                 <button class="hero__btn">
                     Join Now
-                </button></button>
+                </button>
             </section>
         </div>
         <div class="main__section section__boy">
@@ -21,7 +21,9 @@
                     Ipsum available, but the majority have suffered
                     alteration.
                 </p>
-                <button>Join Us</button>
+                <button class="hero__btn">
+                    Join Now
+                </button>
             </section>
         </div>
     </section>
