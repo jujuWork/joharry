@@ -41,15 +41,62 @@ main {
 .section__text {
   text-align: center;
   max-width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   h3 {
     font-size: clamp(12px, 12vw, 30px);
     font-family: "Rakkas";
     letter-spacing: 1.5px;
+    text-transform: uppercase;
   }
 
   p {
     font-size: clamp(9px, 7vw, 10px);
+  }
+
+  .main__btn {
+    color: var(--tool-color);
+    background-color: transparent;
+    font-family: "Rakkas";
+    font-size: clamp(0.7rem, 5vw, 1rem);
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    width: clamp(130px, 10vw, 180px);
+    height: 50px;
+    margin-top: 3em;
+    border-radius: 5px;
+    border: none;
+    outline: 2px solid var(--tool-color);
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -50px;
+      top: 0;
+      width: 0;
+      height: 100%;
+      transform: skew(45deg);
+      transition: width 1s;
+      z-index: -1;
+      background-color: var(--text-color);
+    }
+
+    &:hover::before {
+      width: 250%;
+    }
   }
 }
 
