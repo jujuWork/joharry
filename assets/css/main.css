@@ -1,19 +1,22 @@
 main {
   position: relative;
   width: 100%;
+  /* height: 100%; */
   display: flex;
   justify-content: center;
+  margin-top: 2em;
 }
 
 .main__container {
   position: relative;
   width: 100%;
   max-width: 1920px;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
 .main__section {
@@ -56,6 +59,7 @@ main {
 
   p {
     font-size: clamp(9px, 7vw, 10px);
+    width: 300px;
   }
 
   .main__btn {
@@ -105,8 +109,33 @@ main {
   filter: grayscale(70%);
 }
 
+.feature__container {
+  border: 1px solid red;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 480px) {
+  .main__section {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 767px) {
   .main__section {
-    height: 50vh;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .main__container {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main__container {
+    height: 100%;
   }
 }

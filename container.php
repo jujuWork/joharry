@@ -18,6 +18,9 @@
     <!-- MAIN STYLES -->
     <link rel="stylesheet" href="./assets/css/main.css">
 
+    <!-- FOOTER STYLE -->
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
 </head>
 
 <body>
