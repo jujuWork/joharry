@@ -17,6 +17,7 @@
 
     <!-- MAIN STYLES -->
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/aside.css">
 
     <!-- FOOTER STYLE -->
     <link rel="stylesheet" href="./assets/css/footer.css">
@@ -31,6 +32,7 @@
         </div>
         <div class="grid_item main">
             <?php include './pages/main.php' ?>
+            <?php include './pages/aside.php' ?>
         </div>
         <div class="grid_item footer">
             <?php include 'footer.php' ?>
