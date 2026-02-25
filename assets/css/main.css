@@ -32,7 +32,7 @@ main {
 
 .main__section:hover {
   filter: grayscale(0);
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 .section__girl {
@@ -113,5 +113,9 @@ main {
 @media (max-width: 767px) {
   .main__container {
     flex-wrap: wrap;
+  }
+
+  .main__section {
+    height: 40vh;
   }
 }

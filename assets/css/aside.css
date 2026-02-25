@@ -1,4 +1,69 @@
 aside {
-  border: 1px solid red;
   height: 50vh;
+  position: relative;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aside__container {
+  padding: 15px;
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.aside__title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    font-size: clamp(2.5rem, 3vw, 3.6rem);
+    font-family: "Kavoon", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  p {
+    width: clamp(350px, 5vw, 750px);
+    text-align: center;
+    text-transform: wrap;
+  }
+}
+
+.carousel__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+/*
+.carousel__item-wrapper {
+  position: relative;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  flex: 0 0 100%;
+  padding: 10px;
+  margin-top: 3em;
+  scroll-snap-align: center;
+
+  p {
+    width: 280px;
+    text-align: center;
+  }
 }
